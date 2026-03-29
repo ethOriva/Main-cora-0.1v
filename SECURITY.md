@@ -4,14 +4,14 @@
 
 The Lido contributors appreciate your efforts to disclose your findings responsibly and will make every effort to acknowledge your contributions.
 
-To report a security issue, please use the [Lido Bug Bounty program on Immunefi](https://immunefi.com/bounty/lido). This platform enables efficient tracking and response to vulnerabilities while offering rewards for valid submissions.
+To report a security issue, please use the  This platform enables efficient tracking and response to vulnerabilities while offering rewards for valid submissions.
 
 > [!IMPORTANT]
 > Please DO NOT file a public issue on GitHub or disclose the vulnerability publicly in any way before it has been addressed by the Lido core contributors.
 
 ## Scope
 
-Please refer to the [Lido Bug Bounty page on Immunefi](https://immunefi.com/bounty/lido) for details on what is considered within the bug bounty program's scope.
+Please refer to the  for details on what is considered within the bug bounty program's scope.
 
 ## Process
 
