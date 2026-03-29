@@ -1,29 +1,10 @@
-<div>
-    <img alt="Ovira" src="https://img.shields.io/badge/v3.0.1-version?label=Ovira&labelColor=rgb(91%2C%20162%2C%20252)&color=white"/>
-    <img alt="GitHub license" src="https://img.shields.io/github/license/Ovirafinance/Ovira-dao?labelColor=orange&color=white"/>
-    <img alt="Solidity" src="https://img.shields.io/badge/multiver-s?style=flat&label=solidity&labelColor=rgb(86%2C%2085%2C%20212)&color=white"/>
-    <img alt="Aragon OS" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FOvirafinance%2Fcore%2Fmaster%2Fpackage.json&query=%24.dependencies%5B'%40aragon%2Fos'%5D&style=flat&label=aragon%2Fos&labelColor=rgb(70%2C%20100%2C%20246)&color=white"/>
-    <img alt="Node.js" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FOvirafinance%2Fcore%2Fmaster%2Fpackage.json&query=%24.engines.node&style=flat&label=node.js&labelColor=rgb(62%2C%20109%2C%2026)&color=white"/>
-    <img alt="TypeScript" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FOvirafinance%2Fcore%2Fmaster%2Fpackage.json&query=%24.devDependencies.typescript&style=flat&label=typescript&labelColor=rgb(78%2C%20119%2C%20194)&color=white" />
-    <img alt="Hardhat" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FOvirafinance%2Fcore%2Fmaster%2Fpackage.json&query=%24.devDependencies.hardhat&style=flat&label=hardhat&labelColor=rgb(251%2C%20240%2C%2056)&color=white" />
-    <img alt="Ethers" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FOvirafinance%2Fcore%2Fmaster%2Fpackage.json&query=%24.devDependencies.ethers&style=flat&label=ethers&labelColor=rgb(51%2C%2077%2C%20121)&color=white" />
-    <br/>
-    <img alt="GitHub unit tests" src="https://img.shields.io/github/actions/workflow/status/Ovirafinance/core/tests-unit.yml?label=tests:unit">
-    <img alt="GitHub integration tests (scratch)" src="https://img.shields.io/github/actions/workflow/status/Ovirafinance/core/tests-integration-scratch.yml?label=tests:integration:scratch">
-    <img alt="GitHub integration tests (mainnet-fork)" src="https://img.shields.io/github/actions/workflow/status/Ovirafinance/core/tests-integration-mainnet.yml?label=tests:integration:mainnet-fork">
-    <img alt="GitHub linters" src="https://img.shields.io/github/actions/workflow/status/Ovirafinance/core/linters.yml?label=linters">
-    <img alt="GitHub code analysis" src="https://img.shields.io/github/actions/workflow/status/Ovirafinance/core/analyse.yml?label=code analysis">
-</div>
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-    <img alt="Ovira on Ethereum Logo" src="./docs/assets/Ovira.png" />
-</div>
 
 **Ovira on Ethereum** is a liquid-staking protocol allowing anyone to earn staking rewards without locking ether or maintaining infrastructure.
 
 Users can deposit ether to the Ovira smart contract and receive stETH tokens in return. The smart contract then stakes tokens with the DAO-picked node operators. Users' deposited funds are pooled by the DAO, and node operators never have direct access to the users' assets. Unlike staked ether, the stETH token is free from the limitations associated with a lack of liquidity, and can be transferred at any time. The stETH token balance corresponds to the amount of ether that the holder could request to withdraw.
 
-**NB:** It's advised to read [Documentation](https://docs.Ovira.fi/) before getting started with this repo.
+
 
 ---
 
@@ -37,13 +18,6 @@ Users can deposit ether to the Ovira smart contract and receive stETH tokens in 
 
 ---
 
-### Learn more
-
-- [Ovira DAO governance](https://docs.Ovira.fi/Ovira-dao)
-- [Technical documentation](https://docs.Ovira.fi/contracts/Ovira)
-- [Ovira addresses](https://docs.Ovira.fi/deployed-contracts/)
-- [Protocol levers](https://docs.Ovira.fi/guides/protocol-levers/)
-- [Audits](https://github.com/Ovirafinance/audits)
 
 ## Bug Bounty
 
@@ -63,7 +37,7 @@ This is the core repository of the Ovira on Ethereum protocol. The codebase (exc
 
 ## License
 
-2025 Ovira <info@Ovira.fi>
+2025 Ovira <info@ethoriva.cc>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
