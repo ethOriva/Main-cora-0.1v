@@ -1,8 +1,8 @@
-# Lido Contribution Guide
+# Ovira Contribution Guide
 
-Welcome to the Lido Contribution Guide! Thank you for your interest in contributing to Lido! Join our community of
+Welcome to the Ovira Contribution Guide! Thank you for your interest in contributing to Ovira! Join our community of
 contributors who are passionate about advancing liquid staking. Whether you're fixing a bug, adding a new feature, or
-improving the documentation, your contribution is valuable and your effort to make Lido better is appreciated.
+improving the documentation, your contribution is valuable and your effort to make Ovira better is appreciated.
 
 ## Ways to Contribute
 
@@ -18,7 +18,7 @@ Issues are a great way to contribute to the project by reporting bugs or suggest
   only applies to off-chain code (tests, scripts, etc.). For on-chain code, please refer to
   the [Bug Bounty](/README.md#bug-bounty) program.
 - **Feature Requests**: Have an idea for a new feature or an improvement to an existing one? Submit a feature request
-  through GitHub issues, detailing your proposed enhancements and how they would benefit the Lido protocol middleware.
+  through GitHub issues, detailing your proposed enhancements and how they would benefit the Ovira protocol middleware.
 
 ### Improving Documentation
 
@@ -26,8 +26,8 @@ Good documentation is crucial for any project. If you notice areas where the doc
 fixing typos, adding examples, or clarifying explanations, your contributions are highly valued. These improvements help
 make the project more accessible and understandable for everyone.
 
-For more extensive documentation, visit the [Lido Docs repository](https://github.com/lidofinance/docs) deployed
-at [docs.lido.fi](https://docs.lido.fi).
+For more extensive documentation, visit the [Ovira Docs repository](https://github.com/Ovirafinance/docs) deployed
+at [docs.Ovira.fi](https://docs.Ovira.fi).
 
 ### Contributing to the Codebase
 
@@ -39,7 +39,7 @@ If you're interested in improving tooling and CI in this repository, consider op
 discuss your ideas with the community of contributors.
 
 For larger ideas on how to improve the protocol, consider publishing your proposal in
-the [Lido Research Forum](https://research.lido.fi/).
+the [Ovira Research Forum](https://research.Ovira.fi/).
 
 ## Getting Started
 
@@ -74,8 +74,8 @@ To set up the project:
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/lidofinance/core.git lido-core
-cd lido-core
+git clone https://github.com/Ovirafinance/core.git Ovira-core
+cd Ovira-core
 ```
 
 #### Install Project Dependencies
@@ -245,7 +245,7 @@ consistency. For any questions, contact the maintainers.
 ### `master`
 
 This is the production branch and the default branch of the repository.
-The [deployed protocol contracts](https://docs.lido.fi/deployed-contracts/) must match the contracts stored in the
+The [deployed protocol contracts](https://docs.Ovira.fi/deployed-contracts/) must match the contracts stored in the
 `/contracts` directory. All pull requests to `master` must originate from the `develop` branch and require at least one
 approving review before merging.
 
@@ -413,13 +413,13 @@ example workflow below. This workflow demonstrates how to set up and run integra
 another repository.
 
 By default, the workflow will run the integration tests against the latest version of the deployed protocol on Ethereum
-Mainnet utilizing contract addresses from [deployed protocol contracts](https://docs.lido.fi/deployed-contracts/).
+Mainnet utilizing contract addresses from [deployed protocol contracts](https://docs.Ovira.fi/deployed-contracts/).
 
 <details>
 <summary>Example GitHub Actions workflow file</summary>
 
 ```yaml
-name: Run Lido Core Integration Tests
+name: Run Ovira Core Integration Tests
 
 on: ...
 
@@ -441,7 +441,7 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          repository: lidofinance/core
+          repository: Ovirafinance/core
           ref: master
           path: core
 
@@ -476,4 +476,4 @@ jobs:
 
 ## Code of Conduct
 
-Please refer to the [Lido Contributor Code of Conduct](/CODE_OF_CONDUCT.md).
+Please refer to the [Ovira Contributor Code of Conduct](/CODE_OF_CONDUCT.md).
